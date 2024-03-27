@@ -24,7 +24,7 @@ Aquí puedes ver cómo luce nuestra aplicación en acción:
 ![Index2](Screenshot/index2.png)
 
 
-### Installing
+### Cómo Ejecutar la Aplicación 🚀
 
 ```bash
 # Clonar el repositorio
