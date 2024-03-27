@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --bg-dark: #00556a;
+    --bg2: #fff;
+    --bg: #006e89;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--bg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    background-color: var(--bg2);
+    border-radius: 9px;
+    border: 1px solid black;
+    margin: 70px auto;
+    max-width: 640px;
+    padding: 20px;
+}
+
+.imc-valor,
+.resultado {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; 
+    width: 45%; 
+}
+
+.imc-valor h2,
+.resultado h2 {
+    margin-bottom: 10px;
+}
+
+.imc-valor p,
+.resultado p {
+    margin-top: 5px;
+}
+
+.form {
+    clear: both;
+    margin-top: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--bg);
+}
+
+form button{
+    background: var(--bg);
+    border: none;
+    color: var(--bg2);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 30px;
+}
+form button:hover{
+    background: var(--bg-dark);
+}
+
+.resultadoImc{
+    background: var(--bg2);
+    text-align: center;
+}
+
+
