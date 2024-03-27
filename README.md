@@ -7,22 +7,35 @@ Esta aplicación ha sido desarrollada para facilitar el cálculo del Índice de 
 - **Andrés Sosa** 🚀
 - **Cristian Acosta** 🌟
 
+## Tecnologías Utilizadas 💻
+
+Esta aplicación fue construida utilizando las siguientes tecnologías:
+
+- **React**: Una biblioteca de JavaScript para construir interfaces de usuario.
+- **JavaScript (JS)**: Lenguaje de programación utilizado para implementar la lógica compleja en el sitio web.
+- **CSS**: Usado para diseñar y personalizar la apariencia de la aplicación.
+- **SweetAlert2**: Una biblioteca de JavaScript que nos ayuda a la creación de alertas.
+
 ## Capturas de Pantalla 📸
 
 Aquí puedes ver cómo luce nuestra aplicación en acción:
 
-![Pantalla Principal](Screenshot/Index.png)
-![Pantalla Principal2](Screenshot/Index2.png)
+![Indexl](Screenshot/Index.png)
+![Index2](Screenshot/index2.png)
 
 
-## Cómo Usar 📖
+### Installing
 
-Instrucciones breves sobre cómo utilizar la aplicación, incluyendo cualquier requisito previo, cómo ejecutarla, y posibles argumentos de línea de comandos si es aplicable. 🛠️
+```bash
+# Clonar el repositorio
+git clone https://github.com/Andrewsy1004/App_Imc
 
-## Contribuciones 🤝
+# Dependiendo de cual de los dos projectos deseas ejecutar (con el patron aplicado o sin el patron aplicado)
+cd ConExperto-Imc
+npm run dev
 
-Estamos abiertos a contribuciones. Si tienes alguna sugerencia para mejorar la aplicación o deseas reportar un error, no dudes en abrir un issue o realizar un pull request. 📝
+cd SinExperto-IMC
+npm run dev
 
-## Licencia 📄
 
-[MIT License](LICENSE.md) - Este proyecto está abierto a ser utilizado y modificado por cualquier persona interesada, siguiendo los términos y condiciones de la licencia MIT. 🔓
+
