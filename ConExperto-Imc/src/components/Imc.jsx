@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import {validaciones,calcularResultadoIMC} from '../helper';
+import {validaciones} from '../helper';
+import {Persona} from '../class';
 import '../styles/Imc.css';
 
 export const Imc = () => {
@@ -22,8 +23,10 @@ export const Imc = () => {
     const altura = parseFloat(form.altura);
 
     if (!validaciones( peso, altura)) return; 
-  
-    const { imc, resultImc, colorFondo } = calcularResultadoIMC(peso, altura);
+    
+    let persona = new Persona(peso,altura);
+    
+    const { imc, resultImc, colorFondo } = persona.calcularIMC(peso, altura);
     
     setForm(prevForm => ({
       ...prevForm,
