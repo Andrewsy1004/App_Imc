@@ -26,7 +26,7 @@ export const Imc = () => {
     
     let persona = new Persona(peso,altura);
     
-    const { imc, resultImc, colorFondo } = persona.calcularIMC(peso, altura);
+    const { imc, resultImc, colorFondo } = persona.interpretarIMC(peso, altura);
     
     setForm(prevForm => ({
       ...prevForm,
