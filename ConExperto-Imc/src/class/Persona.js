@@ -4,8 +4,13 @@ export class Persona {
         this.altura = altura; // Altura en metros
     }
 
-    calcularIMC() {
-        const imc = this.peso / (this.altura * this.altura);
+     calcularIMC() {
+        return this.peso / (this.altura * this.altura);
+    }
+
+    // Método para interpretar el IMC
+    interpretarIMC() {
+        const imc = this.calcularIMC();
         let resultImc = '', colorFondo = '';
 
         if (imc < 18.5) {
@@ -29,4 +34,5 @@ export class Persona {
         }
         return { imc: imc.toFixed(2), resultImc, colorFondo };
     }
+
 }
